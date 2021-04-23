@@ -4,7 +4,7 @@
 trap ctrl_c INT
 function ctrl_c(){
 echo -e "\n[+] Saliendo..."
-exit 0
+exit 1
 
 }
 
