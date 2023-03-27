@@ -46,5 +46,3 @@ if [ $ttl -gt 128 ]; then
 
     echo -e "\n$1 -> Unknown OS\n"
 fi
-
-# fin del script
