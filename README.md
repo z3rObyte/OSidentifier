@@ -1,13 +1,11 @@
 # OSidentifier
 
-Esta herramienta hace uso del valor del TTL en una traza ICMP para identificar el sistema operativo
+This tool uses the TTL value to determine the host OS.
 
-# Uso
+To learn more about how TTL works, you can read [this article](https://ioflood.com/blog/2021/01/28/what-is-ttl-in-ping-traceroute/)
 
-El uso de la herramienta es muy sencillo:
+# Usage
 
-    $ ./OSidentifier.sh ip
+    $ ./OSidentifier.sh example.org
 
-Ejemplo:
 
-    $ ./OSidentifier.sh 127.0.0.1
